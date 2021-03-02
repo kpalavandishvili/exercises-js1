@@ -8,6 +8,16 @@
 
 var name = "Daniel";
 var danielsRole = "mentor";
+function whoIsHe(name, role) {
+  if (role === danielsRole) {
+    console.log(`Hi, I'm ${name}, I'm a mentor`);
+    
+  }else{
+    console.log(`Hi, I'm ${name}, I'm a student`);
+  }
+  
+}
+whoIsHe(name,danielsRole);
 
 /* 
 EXPECTED RESULT
