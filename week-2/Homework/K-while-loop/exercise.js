@@ -8,7 +8,17 @@
 
 let n = 10;
 
+let sum =0;
+let x=0;
+
 function sumTillNum(num){
+
+	while (x <= 10) {
+		sum = sum + x;
+		x++;
+		
+	}
+	return sum;
 	//your code here
 }
 
